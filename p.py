@@ -41,4 +41,4 @@ def photo(message):
     else:
         bot.send_message(chat_id, 'An error occurred while fetching the photo. Please try again later.')
 			
-bot.polling()
+bot.infinity_polling()
